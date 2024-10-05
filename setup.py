@@ -3,9 +3,9 @@ import os
 from setuptools import setup, find_packages
 
 install_requires = [
-    "Cython",
-    "dtw-python",
-    "openai-whisper",
+    "Cython==3.0.9",
+    "dtw-python==1.4.0",
+    "openai-whisper==20231117",
 ]
 
 required_packages_filename = os.path.join(os.path.dirname(__file__), "requirements.txt")
